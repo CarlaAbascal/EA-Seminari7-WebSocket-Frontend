@@ -1,4 +1,5 @@
 export interface ChatMessage {
-    text: string;
+    message: string;
     type: 'sent' | 'received'; // Solo estos dos tipos
+    date: Date;
   }
